@@ -1,0 +1,9 @@
+server:
+  port: 7777
+spring:
+  application:
+    name: dubbo-provider
+
+spring.dubbo.appname: dubbo-provider
+spring.dubbo.server: true
+spring.dubbo.registry: zookeeper://103.118.41.204:2181
