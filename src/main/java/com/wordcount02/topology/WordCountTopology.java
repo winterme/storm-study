@@ -42,6 +42,7 @@ public class WordCountTopology {
         localCluster.submitTopology("top1", cfg, topologyBuilder.createTopology());
 
         MyTimeUtil.sleep(10*1000);
+        localCluster.shutdown();
         System.out.println("==================game over==============================");
     }
 
